@@ -1,10 +1,11 @@
-# Provisioning Servers
+# Provisioning Servers(HW1)
 
 ## Amazon Web Service(AWS) RDS
 
 Relational Database Service
 
-Relational Database Service is a service provided by AWS. It is a managed database service(DBaaS). There are many challenges when managing a database servers. Along with high uptime database systems require the following features 
+Relational Database Service is a service provided by AWS. It is a managed database service(DBaaS). There are many challenges when managing a database servers. Database systems require the following features
+- High uptime
 - Scheduled backups 
 - Database replaication
 - Creating a cluster (master - master or master slaves) 
@@ -15,7 +16,7 @@ Relational Database Service is a service provided by AWS. It is a managed databa
 Amazon RDS provides all these services out of the box. 
 
 ### Scale/Availibility/Performace 
-One does not require a special Database Admin team to work on these services. Like all the other AWS the biggest advantage is it is easy to scale. It provides APIs to which can scale up or down. Using the APIs(clients available in all languages) replication, backups, snapshots and other tasks can be easily scheduled and orchestrated.
+One does not require a special Database Admin team to work on these services. Like all the other AWS the biggest advantage is it is easy to scale. It provides APIs to which can scale up or down. Using the APIs (clients available in all languages) replication, backups, snapshots and other tasks can be easily scheduled and orchestrated.
 It can be easily scaled vertically. Using the management console or API the database server can be increased in size(CPU/RAM) as per need.
 RDS can be seen as MySQL on EC2, but it is customized for database systems. RDS provides (PIOPS) in order to achieve fasr, consistent I/O performance.
 
