@@ -32,4 +32,14 @@ One does not have total access to the database machine(cannot ssh to database se
 It can get expensive when the data size increases.
 It doesn not provide horizontal scaling. It can be done by sharding on the application level.
 
+## API call to AWS
 
+- Created an free account at AWS
+- After the account was activated, I had access to the management web console. It was a dashboard of the the services provided by AWS(EC2, RDS, S3, etc)
+- In the "Security Credentials" tab, under "Access Keys" I created the Access ket and Secret Key.
+- I created an EC2 instance with generic settings and launched the instance.
+- As I had the AccessKeys, using the Ruby client I authenticated the client, then I called the "DescribeInstances" (https://ec2.amazonaws.com/?Action=DescribeInstances) API to get the details of my instances
+- I printed the public_ip\_address, private\_ip_address, puclic DNS Name. Other details can also be printed.
+
+## DEMO
+![alt text](./final2.gif "API Call")
