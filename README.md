@@ -31,7 +31,7 @@ Under its DBaaS umbrella, Amazon provides DynamoDB which flexible NoSQL database
 ### Disadvantages
 One does not have total access to the database machine(cannot ssh to database server)
 It can get expensive when the data size increases.
-It doesn not provide horizontal scaling. It can be done by sharding on the application level.
+It does not provide horizontal scaling. It can be done by sharding on the application level.
 
 ## API call to AWS
 
