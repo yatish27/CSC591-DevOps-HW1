@@ -42,5 +42,14 @@ It does not provide horizontal scaling. It can be done by sharding on the applic
 - As I had the AccessKeys, using the Ruby client I __authenticated__ the client, then I called the "DescribeInstances" (https://ec2.amazonaws.com/?Action=DescribeInstances) API to get the details of my instances
 - I printed the public_ip\_address, private\_ip_address, public DNS Name. Other details can also be printed.
 
-## DEMO
+## Usage 
+
+```
+mv secerts.json.example secrets.json
+```
+
+Add your own `AccessKeyId` and `SecretAccessKey`  in the secrets.json 
+
+### DEMO
+
 ![alt text](./final2.gif "API Call")
